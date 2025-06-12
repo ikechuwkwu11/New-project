@@ -1,17 +1,40 @@
-User Management API
+# 👥 User Management API
+User Management API is a simple, RESTful web service built using Django and Django REST Framework (DRF). It provides endpoints to create, read, update, and delete user records — a foundational feature in many web applications.
 
-This is a simple RESTful API built with **Django** and **Django REST Framework** to manage users. It allows you to **create**, **view**, **update**, and **delete** user records.
+## ✨ Features
+List All Users:
+- Fetch all user records in the system.
 
-Features
--  Get a list of all users
--  Create a new user
--  Get a single user's details
--  Update user info
--  Delete a user
+Create New User:
+- Add a new user with basic information.
 
-Tech Stack
-- Python
-- Django
-- Django REST Framework
-- SQLite (default, can be changed)
+Retrieve a Single User:
+- Get the details of a specific user by ID.
 
+Update User Info:
+- Modify existing user data.
+
+Delete a User:
+- Permanently remove a user from the system.
+
+## 🛠 Tech Stack
+- Layer	Technology
+- Language	Python
+- Framework	Django
+- API Framework	Django REST Framework (DRF)
+- Database	SQLite (default, configurable)
+
+## 📫 API Endpoints
+- Method	Endpoint	Description
+- GET	/api/users/	List all users
+- POST	/api/users/	Create a new user
+- GET	/api/users/<id>/	Get a user's details
+- PUT	/api/users/<id>/	Update a user's info
+- DELETE	/api/users/<id>/	Delete a user
+You can test these endpoints using Postman, Insomnia, or curl.
+
+## 🔐 Optional Additions
+- User authentication (JWT, Token, or Session)
+- Pagination and filtering
+- Admin permissions and roles
+- Swagger or ReDoc API documentation
