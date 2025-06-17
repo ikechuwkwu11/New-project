@@ -18,20 +18,23 @@ Delete a User:
 - Permanently remove a user from the system.
 
 ## 🛠 Tech Stack
-- Layer	Technology
-- Language	Python
-- Framework	Django
-- API Framework	Django REST Framework (DRF)
-- Database	SQLite (default, configurable)
+| Layer     | Technology                  |
+| --------- | --------------------------- |
+| Language  | Python                      |
+| Framework | Django                      |
+| API       | Django REST Framework (DRF) |
+| Database  | SQLite (default, swappable) |
+
 
 ## 📫 API Endpoints
-- Method	Endpoint	Description
-- GET	/api/users/	List all users
-- POST	/api/users/	Create a new user
-- GET	/api/users/<id>/	Get a user's details
-- PUT	/api/users/<id>/	Update a user's info
-- DELETE	/api/users/<id>/	Delete a user
-You can test these endpoints using Postman, Insomnia, or curl.
+| Method | Endpoint           | Description          |
+| ------ | ------------------ | -------------------- |
+| GET    | `/api/users/`      | List all users       |
+| POST   | `/api/users/`      | Create a new user    |
+| GET    | `/api/users/<id>/` | Get a user’s details |
+| PUT    | `/api/users/<id>/` | Update a user’s info |
+| DELETE | `/api/users/<id>/` | Delete a user        |
+
 
 ## 🔐 Optional Additions
 - User authentication (JWT, Token, or Session)
